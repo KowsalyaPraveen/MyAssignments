@@ -1,4 +1,4 @@
-package assignments;
+package homeAssignments;
 
 import java.time.Duration;
 import java.util.ArrayList;

@@ -1,4 +1,4 @@
-package assignments;
+package homeAssignments;
 
 public class FindLengthOfLastWord {
 
