@@ -14,6 +14,7 @@ public class LearnHovering {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 		driver.navigate().to("https://www.myntra.com/");
+		
 		Actions action = new Actions(driver);
 		action.moveToElement(driver.findElement(By.xpath("//a[text()='Men']"))).pause(3000)
 				.click(driver.findElement(By.xpath("//a[text()='T-Shirts']"))).build().perform();
